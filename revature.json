@@ -1,0 +1,25 @@
+{
+  "type": "python",
+  "testFiles": [
+    {
+      "path": "src/test/lab_test.py",
+      "testCases": [
+        {
+          "methodName": "test_positive_numbers",
+          "label": "Verify digit count for positive numbers",
+          "description": "Ensures count_digits correctly returns the number of digits in positive integers."
+        },
+        {
+          "methodName": "test_negative_numbers",
+          "label": "Verify digit count for negative numbers",
+          "description": "Checks that count_digits handles negative integers by counting digits without considering the minus sign."
+        },
+        {
+          "methodName": "test_single_digit_number",
+          "label": "Verify digit count for single-digit inputs",
+          "description": "Validates that count_digits returns 1 for single-digit numbers, including zero."
+        }
+      ]
+    }
+  ]
+}
